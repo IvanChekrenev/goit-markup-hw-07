@@ -1,7 +1,7 @@
 .section.we-do {
   padding-top: 0px;
 }
-.we-do-title {
+.we-do__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -11,15 +11,15 @@
   margin-bottom: 50px;
   text-align: center;
 }
-.list.we-do {
+.we-do__list {
   display: flex;
   justify-content: space-between;
 }
-.wedo-link {
+.we-do__link {
   position: relative;
   display: flex;
 }
-.wedo-box {
+.we-do__box-image {
   display: flex;
   position: absolute;
   width: 100%;
@@ -30,7 +30,7 @@
   justify-content: center;
   align-items: center;
 }
-.wedo-boxtitle {
+.we-do__box-title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
