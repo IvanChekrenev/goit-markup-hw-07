@@ -443,57 +443,57 @@
  <!-- ---------------------modal-------------------------------------- -->
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button data-modal-close class="button-modal-closed">
-            <svg class="cross-closed" width=11 height=11>
-                <use href="./images/icons.svg#icon-cross">                
-
+        <button data-modal-close class="modal__button-closed">
+            <svg class="modal__button-closed__cross" width=11 height=11>
+                <use href="./images/icons.svg#icon-cross">         
                 </use>
             </svg>
             </button>
-            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-            <form action="#" class="modal-form">
-                <div class="modal-field">
-                <label for="user-name" class="modal-form-label">Имя</label>
+
+            <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
+            <form action="#" class="modal__form">
+                <div class="modal__field">
+                <label for="user-name" class="modal__form--label">Имя</label>
                 <div class="svg-input-warp">
-                <input id="user-name" type="text" name="user-name" required class="modal-form-input">
-                <svg class="modal-svg" width=12px height=12px>
+                <input id="user-name" type="text" name="user-name" required class="modal__form--input">
+                <svg class="modal__svg" width=12px height=12px>
                     <use href="./images/icons.svg#icon-manblack"></use>
                 </svg>
                 </div>                
                 </div>
-                <div class="modal-field">
-                    <label for="user-tel" class="modal-form-label">Телефон</label>
+                <div class="modal__field">
+                    <label for="user-tel" class="modal__form--label">Телефон</label>
                     <div class="svg-input-warp">
-                        <input id="user-tel" type="tel" name="user-tel" required class="modal-form-input">
-                        <svg class="modal-svg" width=13px height=13px>
+                        <input id="user-tel" type="tel" name="user-tel" required class="modal__form--input">
+                        <svg class="modal__svg" width=13px height=13px>
                             <use href="./images/icons.svg#icon-telmodal"></use>
                         </svg>
                     </div>
                 </div>
-                <div class="modal-field">
-                    <label for="user-mail" class="modal-form-label">Почта</label>
+                <div class="modal__field">
+                    <label for="user-mail" class="modal__form--label">Почта</label>
                     <div class="svg-input-warp">
-                        <input id="user-mail" type="email" name="user-mail" required class="modal-form-input">
-                        <svg class="modal-svg" width=15px height=12px>
+                        <input id="user-mail" type="email" name="user-mail" required class="modal__form--input">
+                        <svg class="modal__svg" width=15px height=12px>
                             <use href="./images/icons.svg#icon-mailmodal"></use>
                         </svg>
                     </div>
                 </div>
-                <div class="modal-field text-area">
-                    <label for="modal-comment" class="modal-form-label">Комментарий</label>
-                    <textarea class="modal-text-area" name="user-comment" id="modal-comment" placeholder="Введите текст"></textarea>
+                <div class="modal__field text-area">
+                    <label for="modal-comment" class="modal__form--label">Комментарий</label>
+                    <textarea class="modal__text--area" name="user-comment" id="modal-comment" placeholder="Введите текст"></textarea>
                 </div>
 
-                <div class="modal-field-checkbox">
-                    <input type="checkbox" name="slave" id="slave" class="modal-checkbox visually-hidden"/>
-                    <label for="slave" class="checkbox-label"><span class="custom-chek-icon">
-                        <svg class="svg-check" width=11px height=8px>
+                <div class="checkbox">
+                    <input type="checkbox" name="slave" id="slave" class="checkbox__input visually-hidden"/>
+                    <label for="slave" class="checkbox__label"><span class="checkbox__icon">
+                        <svg class="checkbox__svg" width=11px height=8px>
                         <use href="./images/icons.svg#icon-icon-cheksmal"></use>
                     </svg></span> Соглашаюсь с рассылкой и принимаю <a href="" class="checkbox-link">Условия договора</a> </label>
                 </div>
 
 
-                <button type="submit" class="modal-form-button" >Отправить</button>
+                <button type="submit" class="modal__button--submit" >Отправить</button>
             </form>
     </div>
 </div>
